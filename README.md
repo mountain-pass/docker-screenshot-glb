@@ -16,5 +16,5 @@ docker pull mountainpass/screenshot-glb
 ## Usage:
 
 ```sh
-docker run -it --rm -v `pwd`:`pwd` -w `pwd` gltf screenshot-glb --help
+docker run -it --rm -v "`pwd`:`pwd`" -w "`pwd`" mountainpass/screenshot-glb screenshot-glb --help
 ```
